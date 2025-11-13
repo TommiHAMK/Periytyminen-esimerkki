@@ -21,3 +21,11 @@ class Koira extends Elain {
         System.out.println("Koira haukkuu");
     }
 }
+
+class Lintu extends Elain {
+    String laji;
+
+    public void haudo() {
+        System.out.println("Lintu hautoo");
+    }
+}
